@@ -1,0 +1,14 @@
+@import "../variables.scss";
+
+.box{
+    box-shadow: $light-bg-shadow-down;
+    .content h2:not(:first-child) {
+        margin-top: 1rem;
+    }
+    .tag{
+        text-transform: uppercase;
+    }
+    .section{
+        padding-bottom: 0;
+    }
+}

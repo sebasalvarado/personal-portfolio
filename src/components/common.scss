@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans');
+@import url('https://unpkg.com/aos@2.3.1/dist/aos.css');
+
+html{
+    &.has-navbar-fixed-top{
+        padding-top: 0;
+    }
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+header, nav, h1, h2, h3, h4, h5, h6{
+    font-family: 'Montserrat', sans-serif;
+    text-transform: capitalize;
+}
+
+h1.title, .button{
+    text-transform: capitalize;
+}
+
+.section:last-child{
+    padding-bottom: 0;
+}
+
+::-webkit-scrollbar {
+    width: 0.375rem;
+    border-left: 1px solid #E6ECF8;
+}
+::-webkit-scrollbar-thumb {
+    background-color: $light-black-color;
+}
+
+.is-hidden{
+    display: none;
+}
+
+@keyframes floating {
+    0%,100% {
+        transform: translateY(0px)
+    }
+
+    50% {
+        transform: translateY(-10px)
+    }
+}

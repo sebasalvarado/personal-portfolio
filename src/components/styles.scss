@@ -1,0 +1,14 @@
+// Importing variables
+@import "./variables.scss";
+
+// Importing Bulma from node_modules
+@import "~bulma/bulma.sass";
+
+// Importing common styles
+@import "./common.scss";
+
+// Importing layout components styles
+@import "./navigation/navigation.scss";
+@import "./header/header.scss";
+@import "./about/about.scss";
+@import "./footer/footer.scss";
